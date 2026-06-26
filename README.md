@@ -1,16 +1,19 @@
-# React + Vite
+# AdoptaPet 🐾
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Descripción
+Aplicación SPA en React que actúa como directorio interactivo y seguro para gestionar visualmente las mascotas en adopción de un refugio, destacando casos urgentes.
 
-Currently, two official plugins are available:
+## Requisitos
+- Node.js (v18 o superior)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Instalación y Ejecución
+1. Clonar repositorio: `git clone https://github.com/tu-usuario/adoptapet-react.git`
+2. Instalar dependencias: `npm install`
+3. Iniciar entorno local: `npm run dev`
+4. Abrir en el navegador: `http://localhost:5173`
 
-## React Compiler
+## Declaración de Uso de IA
+Se utilizó **GitHub Copilot** de forma asistida exclusivamente para la optimización de estructuras de código, tipado con `PropTypes` y estilos base. Toda la lógica de filtros, arquitectura y análisis es de autoría propia.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+**Desarrollado por:** [Tu Nombre Completo]
+**Carrera:** Ingeniería en Informática / Analista Programador - INACAP
