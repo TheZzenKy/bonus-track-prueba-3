@@ -46,17 +46,41 @@ function MascotaCard({
   adopcionUrgente = false,
 }) {
   const estiloBase = estilosPorEspecie[especie] ?? estilosPorEspecie.Otro
+  const estiloUrgente = adopcionUrgente
+    ? {
+        border: '2px solid #ef4444',
+        background: 'linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%)',
+      }
+    : {}
 
   return (
     <article
       style={{
         ...estiloBase.tarjeta,
+        ...estiloUrgente,
         borderRadius: '16px',
         padding: '1.25rem',
         boxShadow: '0 12px 30px rgba(15, 23, 42, 0.18)',
       }}
     >
       <header style={{ marginBottom: '1rem' }}>
+        {adopcionUrgente && (
+          <span
+            style={{
+              display: 'inline-block',
+              marginBottom: '0.75rem',
+              padding: '0.35rem 0.75rem',
+              borderRadius: '999px',
+              background: '#fecaca',
+              color: '#7f1d1d',
+              fontSize: '0.8rem',
+              fontWeight: 800,
+              letterSpacing: '0.04em',
+            }}
+          >
+            URGENTE
+          </span>
+        )}
         <span
           style={{
             ...estiloBase.etiqueta,
