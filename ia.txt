@@ -4,3 +4,9 @@ ETAPA 2:
 Creame la estructura para un componente funcional en React llamado MascotaCard.jsx que reciba por props de forma desestructurada: nombre, raza, edad, especie, descripcion, caracteristicas y adopcionUrgente. 
 Aplica un objeto de configuración para alternar estilos en línea (colores y fondos) según la especie ('Perro', 'Gato', 'Otro'). Incluye la validación de tipos con PropTypes (definiendo caracteristicas como un array de strings) y asigna valores por defecto robustos para cada prop. 
 Asegúrate de renderizar todo como contenido JSX plano y limpio, sin métodos inseguros ni datos quemados.
+
+ETAPA 3:
+Necesito crear el componente ListaMascotas.jsx que reciba un array de objetos llamado mascotas mediante props. 
+Genera el renderizado iterativo usando el método .map() para devolver un componente <MascotaCard /> por cada elemento. 
+Es mandatorio que le asignes la propiedad única key utilizando el id explícito del objeto de la mascota, evitando el uso del índice del array. 
+Incluye su respectivo PropTypes.arrayOf con la forma (PropTypes.shape) del objeto.
