@@ -15,5 +15,5 @@ Aplicación SPA en React que actúa como directorio interactivo y seguro para ge
 ## Declaración de Uso de IA
 Se utilizó **GitHub Copilot** de forma asistida exclusivamente para la optimización de estructuras de código, tipado con `PropTypes` y estilos base. Toda la lógica de filtros, arquitectura y análisis es de autoría propia.
 
-**Desarrollado por:** [Tu Nombre Completo]
-**Carrera:** Ingeniería en Informática / Analista Programador - INACAP
+**Desarrollado por:** Manuel Rodriguez
+**Carrera:** Ingeniería en Informática  - INACAP
