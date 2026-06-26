@@ -1,0 +1,6 @@
+ETAPA 1: No utilice IA
+
+ETAPA 2:
+Creame la estructura para un componente funcional en React llamado MascotaCard.jsx que reciba por props de forma desestructurada: nombre, raza, edad, especie, descripcion, caracteristicas y adopcionUrgente. 
+Aplica un objeto de configuración para alternar estilos en línea (colores y fondos) según la especie ('Perro', 'Gato', 'Otro'). Incluye la validación de tipos con PropTypes (definiendo caracteristicas como un array de strings) y asigna valores por defecto robustos para cada prop. 
+Asegúrate de renderizar todo como contenido JSX plano y limpio, sin métodos inseguros ni datos quemados.
